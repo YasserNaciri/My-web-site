@@ -1,0 +1,76 @@
+/*mastre styles*/
+.botbody{
+    margin: 0;
+    padding-top: 10px;
+    background: #222f3e;
+}
+
+.color-changer{
+    padding: 10px;
+    background-color: sandybrown;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50%);
+    border: none;
+    outline: rgb(201, 134, 76);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.color-changer:hover{
+    background-color: rgb(201, 134, 76);
+    transition: background-color 0.5s;
+}
+
+
+/*nav styles*/
+.countainer{
+    background-color: rgb(0, 139, 139);
+    border: none
+}
+
+.navbot{
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 400px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.midle{
+    padding-top: 13px;
+    text-transform: uppercase;
+    color: rgb(38, 22, 109);
+}
+
+.navbot > .left-side > div{
+    margin: 15px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navtext{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    font-family: Coming Soon;
+}
+
+.navtext a{
+    color: #cca1a1;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navtext:hover{
+    border-bottom: 1px solid black;
+}
+
+.navtext a:hover{
+    color: rgb(49, 47, 47);
+}
+/*portfolio*/

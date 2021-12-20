@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link href="https://fonts.google.com/specimen/Coming+Soon" rel="stylesheet" type="text/css">
+<html>
+    <head>
+        <title>my web site</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="countainer">
+            <div class="navbot">
+                <div class="left-side">
+                    <div class="navtext">
+                        <a href="index.html">HOME</a>
+                    </div>    
+                    <div class="navtext">
+                        <a href="about.html">About This</a>
+                    </div> 
+                </div>
+    
+                <div class="midle">
+                    <div>Rainbow Switch</div>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <button class="color-changer">change color</button>
+        </div>    
+            <script type="text/javascript">
+                var color = ["#d35400","#33ffc9","#4ac253","#c24a64","#FF5733","#900C3F","#4a62c2" ];
+                var i = 0;
+                document.querySelector("button").addEventListener("click",function(){
+                    i = i < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]    
+                })
+            </script>
+    </body>
+</html>
